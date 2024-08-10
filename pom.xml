@@ -44,8 +44,20 @@
         </plugins>
     </build>
 
-    <repositories>
+    <distributionManagement>
         <repository>
+            <id>github</id>
+            <name>GitHub Saibhanu1008 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Saibhanu1008/helloworldtest</url>
+        </repository>
+    </distributionManagement>
+   <repositories>
+         <repository>
+            <id>github</id>
+            <name>GitHub Saibhanu1008 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Saibhanu1008/helloworldtest</url>
+         </repository>
+         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
             <url>https://repo.spring.io/milestone</url>
