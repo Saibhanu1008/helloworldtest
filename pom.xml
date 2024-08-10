@@ -20,6 +20,8 @@
 
     <properties>
         <java.version>11</java.version>
+        <sonar.host.url>http://vigilant-trout-g94j6vqxr65f7r5-9000.app.github.dev</sonar.host.url>
+        <sonar.login>${env.SONAR}</sonar.login>
     </properties>
 
     <dependencies>
